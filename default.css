@@ -1,21 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Jake Tilby-Baxter</title>
+:root{
+    --mainColor:#eaeaea;
+    --secondaryColor:#fff;
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    --borderColor:#c1c1c1;
 
-    <link rel="stylesheet" type="text/css" href="default.css">
-</head>
-<body>
-    <section>
-    <div>
-        <h1>Hello, I am Jake. Welcome to the website.</h1>
-        <p>This is a sentnece</p>
-        <a href="#">Link</a>
+    --mainText:black;
+    --secondaryText:#4b5156;
+}
 
 
-    </div>
-    </section>
-</body>
-</html>
+html, body {
+    padding:0;
+    margin:0;
+}
+
+h1,h2,h3,h4,h5,h6, strong{
+    color: var(--mainText);
+}
+p, li, span, label, input, textarea{
+    color: var(--secondaryText);
+
+}
